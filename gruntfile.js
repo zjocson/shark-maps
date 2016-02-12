@@ -3,7 +3,7 @@ module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         connect: {
-            corp_investor: {
+            shark_maps: {
                 port: 9999,
                 base: 'app'
             }
@@ -11,6 +11,6 @@ module.exports = function(grunt) {
     });
 
     grunt.loadNpmTasks('grunt-connect');
-    grunt.registerTask('default', 'connect:corp_investor');
+    grunt.registerTask('default', 'connect:shark_maps');
 
 };

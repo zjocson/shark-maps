@@ -1,0 +1,71 @@
+html, body {height: 100%;}
+body {margin: 0; padding: 0}
+#map {
+  height: 100%;
+}
+
+.circle-marker {
+  background: rgba(0,153,255, 0.70);
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  width: 30px !important;
+  height: 30px !important;
+  font-family: 'MorrisSansW01-MediumCon', arial, sans-serif;
+  font-size:1.25em;
+  margin-top: -30px !important;
+  margin-left: -25px !important;
+}
+
+.leaflet-popup {
+  bottom: 25px !important;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 3px;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background: rgba(255,255,255,0.9);
+}
+
+.leaflet-popup-content-wrapper {
+  font-family:'DIN Next W01 Light';
+  font-size: 1.15em;
+  color: #666;
+  padding-bottom: 15px;
+}
+
+.leaflet-popup-content-wrapper strong {
+  font-family: 'Rama Gothic M W01 Bold', arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  letter-spacing: 1.5px;
+  color: #333;
+  display: block;
+  clear: both;
+  padding-top: 10px;
+  margin-top: 20px;
+  position: relative;
+  font-weight: normal;
+}
+
+.leaflet-popup-content-wrapper strong:before {
+  background: rgb(0,153,255);
+  content: '';
+  height: 3px;
+  width: 50px;
+  position: absolute;
+  top: 0;
+}
+
+.mapboxgl-popup {
+        max-width: 400px;
+        font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    }
+
+    .marker-title {
+        font-weight: 700;
+    }
